@@ -31,3 +31,11 @@ git clone https://github.com/istinspring/grab-datascience-blogs.git
 cd grab-datascience-blogs
 pip install -r requirements.txt
 ```
+
+# Prepare
+
+First of all you need to download blogs list into the project's var/ directory.
+
+```
+wget https://raw.githubusercontent.com/rushter/data-science-blogs/master/data-science.opml
+```

@@ -1,2 +1,4 @@
 grab
 weblib
+pymongo
+feedparser
