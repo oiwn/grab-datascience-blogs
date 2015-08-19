@@ -60,3 +60,4 @@ target/
 # project
 grabdatascienceblogs.yaml
 var/*.log
+article.md

@@ -17,7 +17,7 @@ The main idea is to use Grab to collect data about data science blog from Rushte
 
 # Install
 
-I would like to create separated project environment.
+I suggest you to create separate project environment.
 
 ```
 mkvirtualenv grabdatascience
@@ -34,8 +34,8 @@ pip install -r requirements.txt
 
 # Prepare
 
-First of all you need to download blogs list into the project's var/ directory.
+First of all you need to download blogs list into the project's ```var/``` directory.
 
 ```
-wget https://raw.githubusercontent.com/rushter/data-science-blogs/master/data-science.opml
+wget https://raw.githubusercontent.com/rushter/data-science-blogs/master/data-science.opml -P var/
 ```
